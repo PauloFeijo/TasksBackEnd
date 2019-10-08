@@ -1,0 +1,6 @@
+sudo npm init -y
+sudo npm i -s express body-parser cors consign
+sudo npm i -s bcrypt-nodejs jwt-simple password password-jwt
+sudo npm i -s knex pg
+sudo npm i -s moment
+sudo npm i --save-dev nodemon
