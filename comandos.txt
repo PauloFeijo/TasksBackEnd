@@ -4,3 +4,8 @@ sudo npm i -s bcrypt-nodejs jwt-simple password password-jwt
 sudo npm i -s knex pg
 sudo npm i -s moment
 sudo npm i --save-dev nodemon
+
+sudo knex migrate:make create_table_users
+sudo knex migrate:make create_table_tasks
+sudo knex migrate:latest
+
